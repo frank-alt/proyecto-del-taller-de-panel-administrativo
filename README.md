@@ -20,7 +20,7 @@ PacintesDAO.java: Objeto de acceso a datos que contiene las consultas SQL para i
 Vista (Package: Vista): InterfazGrafica.java: desarrollada con JFrameForm contiene la disposición visual: tabla de datos, campos de texto, botones de acción y selectores de especialidad. <br>
 Controlador (Package: Controlador): Controlador.java es el cerebro del sistema. Escucha los eventos de los botones, captura los datos de la vista, invoca los métodos del DAO y actualiza la tabla en tiempo real. <br>
 <h2>Funcionalidades principales</h2>
-1.	Registro de pacientes: Validación de campos obligatorios y asignación automática de cita al insertar un nuevo registro
-2.	Visualización dinámica: Carga de especialidades desde la base de datos directamente al JComboBox
-3.	Gestión de citas: Al eliminar un paciente, el sistema realiza una eliminación en cascada programada para limpiar los registros de citas asociados.
-4.	Calculo de indicadores: Conteo automático de pacientes registrados visibles en la interfaz 
+1.	Registro de pacientes: Validación de campos obligatorios y asignación automática de cita al insertar un nuevo registro <br>
+2.	Visualización dinámica: Carga de especialidades desde la base de datos directamente al JComboBox <br>
+3.	Gestión de citas: Al eliminar un paciente, el sistema realiza una eliminación en cascada programada para limpiar los registros de citas asociados. <br>
+4.	Calculo de indicadores: Conteo automático de pacientes registrados visibles en la interfaz <br>
